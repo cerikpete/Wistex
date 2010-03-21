@@ -43,7 +43,7 @@ ul.tab-nav
 	border-left-style: solid;
 	border-left-width: 1px;
 	border-right-style: solid;
-	border-right-width: 1px;		
+	border-right-width: 1px;	
 }
 
 #header #nav ul
@@ -216,7 +216,7 @@ ul.product-list
 ul.product-list li
 {
 	padding-bottom: 85px;
-	padding-right: 5px;
+	padding-right: 10px;
 }
 
 ul.product-list li img
@@ -225,4 +225,19 @@ ul.product-list li img
 	float: left;
 	margin-top: 2px;
 	margin-right: 8px;
+}
+
+.tab ul li
+{
+	width: 490px;
+}
+
+#bwcontrols
+{
+	height: 1300px;
+}
+
+#rxc
+{
+	height: 1170px;
 }

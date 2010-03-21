@@ -1,6 +1,5 @@
 ﻿$(document).ready(function() {
    loadTabFunctionality();
-   //loadAppropriateStyleSheet();
 });
 
 function loadTabFunctionality() {
@@ -13,22 +12,4 @@ function loadTabFunctionality() {
         
         return false;        
    }).filter(':first').click();
-}
-
-function loadAppropriateStyleSheet() {
-    var head = document.getElementsByTagName('head')[0]; 
-    if($.browser.msie) {
-        loadStyleSheet('ie');
-    }
-    else {
-        loadStyleSheet('default');
-    }
-}
-
-function loadStyleSheet(fileName) {
-    var fileref = document.createElement("link")
-    fileref.setAttribute("rel", "stylesheet")
-    fileref.setAttribute("type", "text/css")
-    fileref.setAttribute("href", 'styles/' + fileName + '.css')
-    document.getElementsByTagName("head")[0].appendChild(fileref)
 }
