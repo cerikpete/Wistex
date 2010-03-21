@@ -34,7 +34,7 @@ ul.tab-nav
 {
 	position: absolute;	
 	left: 271px;
-	top: 223px;
+	top: 174px;
 	width: 505px;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
@@ -234,10 +234,10 @@ ul.product-list li img
 
 #bwcontrols
 {
-	height: 1300px;
+	height: 1310px;
 }
 
 #rxc
 {
-	height: 1170px;
+	height: 950px;
 }
