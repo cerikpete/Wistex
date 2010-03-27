@@ -1,7 +1,7 @@
 body
 {	
 	font: normal 0.8em/1.4em Arial, Verdana, sans-serif; color: #666666;
-	margin: 0px 100px 0px 1px;
+	margin: 5px 100px 0px 1px;
 }
 
 a 
@@ -19,7 +19,7 @@ h1
 	position: relative;	
 	border-bottom: 1px solid #E5DFD4;
 	line-height: 20px;
-	color: #00008B;
+	color: #980019;
 	padding-bottom: 5px;
 }
 
@@ -34,7 +34,7 @@ ul.tab-nav
 {
 	position: absolute;	
 	left: 271px;
-	top: 174px;
+	top: 280px;
 	width: 505px;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
@@ -193,6 +193,11 @@ ul.tab-nav li.selected
 {
 	float: left;
 	margin: 15px 15px 0px 8px;
+}
+
+.tab h2 
+{
+  margin-left: 10px;
 }
 
 .no-margin
