@@ -34,7 +34,7 @@ ul.tab-nav
 {
 	position: absolute;	
 	left: 271px;
-	top: 280px;
+	top: 274px;
 	width: 505px;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
@@ -57,11 +57,6 @@ ul.tab-nav
 h2
 {
 	font-size: 1.1em;
-}
-
-#header img.background
-{
-	margin-top: 0px;
 }
 
 a:hover, a:focus
@@ -112,9 +107,15 @@ img
 	top: 25px;
 }
 
-#header img
+#header img.mainheader
 {
 	padding-left: 40px;
+}
+
+#header img.background
+{
+  padding-left: 47px;
+  margin-top: -6px;
 }
 
 #header img.bottom
