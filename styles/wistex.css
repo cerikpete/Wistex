@@ -138,7 +138,7 @@ img.home-image
 
 #header #nav ul li a, a:hover, a:focus
 {
-	color: red !important;
+	color: #980019 !important;
 	font-weight: bold;
 	font-size: 1.0em;
 }
