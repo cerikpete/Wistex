@@ -57,6 +57,7 @@ ul.tab-nav
 h2
 {
 	font-size: 1.1em;
+	padding-left: 100px;
 }
 
 a:hover, a:focus
@@ -90,7 +91,7 @@ img
 #content p
 {
 	padding-left: 100px;
-	width: 775px;
+	width: 770px;
 }
 
 #left-border img

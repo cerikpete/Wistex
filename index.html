@@ -1,25 +1,46 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
-<head id="Head1" runat="server">
-    <link href="styles/wistex.css" rel="stylesheet" type="text/css" />
+<head id="Head1" runat="server">    
     <title>Wistex, LLC</title>
+    <link href="styles/wistex.css" rel="stylesheet" type="text/css" />
+     <!--[if lte IE 7]>
+        <link href="styles/ie.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
 </head>
 <body>
     <div id="content">
-        <div class="header">
-            <img src="images/wistex.jpg" />
+        <div id="header">
+            <img src="images/wistex.jpg" alt="Wistex" class="mainheader" />  
+            <div id="nav">
+                <img src="images/nav-bg.jpg" class="background" />
+                <ul>
+                    <li><a href="index.html" class="on">Home</a></li>                    
+                    <li><a href="products.html">Products</a></li>                                        
+                    <li><a href="#">About Wistex</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Tech Partners</a></li>                    
+                    <li><a href="#">Buy Online</a></li>    
+                </ul>
+            </div>
         </div>
-        
-        <div class="overview">
-            <p><strong>WISTEX LLC.</strong>, founded over 30 years ago, has professionally trained sales engineers to promote and service control products in the process and instrumentation market place. The staff includes three Outside Sales Engineers, one Inside Engineer, and one Support/Secretarial person.</p>
-
-            <p>Our area of coverage is Eastern Pennsylvania, Southern New Jersey, and the entire states of Delaware and Maryland</p>
-            
-            <p>&gt;&gt; View our <a href="docs/linecard.pdf" target="_blank">line card</a> of products.</p>
+        <div id="left-border">
+            <img src="images/border.png" />                
         </div>
+                
+        <h2>Mission</h2>
+        <p><strong>WISTEX, II LLC</strong> is a Representative, Distributor and Service Provider operating in Pennsylvania, New Jersey, Delaware, Maryland, and Northern 
+        Virginia. Wistex is dedicated to providing innovative automation products, exceptional service, and maintaining the highest standards for knowledge, ethics and 
+        professionalism to our new and existing customer base.</p>       
         
-        <p class="head">CONTACT US</p>
+        <h2>Vision</h2>
+        <p>Wistex, II LLC strives to become the number one supplier of Automation Products, Services, and Solutions, while continuing to grow in presence and numbers in the marketplace.</p>
         
+        <h2>Contact Us</h2>        
         <p>For more information please contact us directly at 800-726-7307 or <a href="mailto:sales@swc-wistex.com">sales@swc-wistex.com</a>.</p>
+        
+        <div id="right-border">
+            <img src="images/border.png" />                
+        </div>
     </div>
 </body>
 </html>
