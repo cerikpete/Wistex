@@ -14,13 +14,23 @@ h1
 {
 	font-size: 1.4em;
 	left: 100px;
-	width: 775px;
+	width: 770px;
 	top: -20px;
 	position: relative;	
 	border-bottom: 1px solid #E5DFD4;
 	line-height: 20px;
 	color: #980019;
 	padding-bottom: 5px;
+}
+
+h2
+{
+	font-size: 1.1em;
+	left: 100px;
+	color: #980019;
+	border-bottom: 1px solid #E5DFD4;
+	width: 400px;
+	position: relative;
 }
 
 ul.tab-nav
@@ -52,12 +62,6 @@ ul.tab-nav
 	position: relative;
 	left: 60px;
 	top: -40px;
-}
-
-h2
-{
-	font-size: 1.1em;
-	padding-left: 100px;
 }
 
 a:hover, a:focus
