@@ -1,20 +1,19 @@
 #header img.mainheader
 {
 	position: relative;
-	left: 25px;
+	left: 15px;
 }
 
 #header img.background
 {
   margin-top:-6px;  
   position: relative;
-  padding-left: 47px;
+  padding-left: 22px;
   top: -3px;
-  left: 45px;
-  width: 640px;
+  left: 42px;  
 }
 
 #header #nav ul {
-  left:28px;
+  left:35px;
   top: -51px;  
 }
