@@ -252,3 +252,14 @@ ul.product-list li img
 {
 	height: 950px;
 }
+
+.callout-image
+{
+  text-align: center;
+}
+
+img.inlay-image
+{
+  float:right;
+  margin:5px;
+}
