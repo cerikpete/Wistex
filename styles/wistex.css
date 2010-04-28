@@ -263,3 +263,19 @@ img.inlay-image
   float:right;
   margin:5px;
 }
+
+.column
+{  
+  float: left;
+  padding-left: 40px;
+}
+
+.column ul
+{
+  list-style: none;
+}
+
+p.footer
+{
+  clear: both;
+}
