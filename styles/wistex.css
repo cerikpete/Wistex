@@ -279,3 +279,9 @@ p.footer
 {
   clear: both;
 }
+
+table#partners
+{
+	margin-left: 60px;
+	margin-bottom: 15px;
+}
