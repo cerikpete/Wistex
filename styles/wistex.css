@@ -261,6 +261,7 @@ ul.product-list li img
 img.inlay-image
 {
   float:right;
+  padding: 5px;
 }
 
 .column
